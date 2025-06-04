@@ -73,37 +73,6 @@
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
-    "video_M9WUtf": {
-      "type": "video",
-      "blocks": {
-        "play_eJAWct": {
-          "type": "play",
-          "settings": {}
-        },
-        "heading_jqgfHQ": {
-          "type": "heading",
-          "settings": {
-            "text": "Video",
-            "heading_tag": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "play_eJAWct",
-        "heading_jqgfHQ"
-      ],
-      "name": "Video",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "autoplay": false,
-        "video_size": "auto",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
     "text_with_icons_DzYep3": {
       "type": "text-with-icons",
       "blocks": {
@@ -177,7 +146,7 @@
         "title": "En partenariat :",
         "heading_tag": "h5",
         "text_alignment": "center",
-        "icon_spacing": "medium",
+        "icon_spacing": "small",
         "background": "#ffffff",
         "background_gradient": "",
         "text_color": ""
@@ -241,31 +210,10 @@
             "background": "",
             "background_gradient": ""
           }
-        },
-        "image_4NKeXM": {
-          "type": "image",
-          "settings": {
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Tell your story",
-            "title": "Slide title",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
-          }
         }
       },
       "block_order": [
-        "image_wfUDrz",
-        "image_4NKeXM"
+        "image_wfUDrz"
       ],
       "name": "Slideshow",
       "settings": {
@@ -276,7 +224,7 @@
         "transition_type": "fade_with_text",
         "autoplay": false,
         "cycle_speed": 6,
-        "background": "#F2F2F2",
+        "background": "#f2f2f2",
         "background_gradient": ""
       }
     },
@@ -301,18 +249,20 @@
         "item_XiF83p": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/p93ujxfx3gy1mekpu0a14lyfdy8b_1.png",
             "column_size": "3",
             "title": "Column title",
-            "heading_tag": "h4",
+            "heading_tag": "h5",
             "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
           }
         },
-        "item_NQwWpR": {
+        "item_N6XdEd": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/q4h2tb88jnfynurs2te5jezojjx7_2.png",
             "column_size": "3",
             "title": "Column title",
             "heading_tag": "h4",
@@ -325,6 +275,7 @@
         "item_6rrJAd": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/e4g3tj7dexicn6mr5w4pqu35g4gi_1.png",
             "column_size": "3",
             "title": "Column title",
             "heading_tag": "h4",
@@ -337,14 +288,14 @@
       },
       "block_order": [
         "item_XiF83p",
-        "item_NQwWpR",
+        "item_N6XdEd",
         "item_6rrJAd"
       ],
       "name": "Multi-column",
       "settings": {
         "full_width": true,
         "stack_on_mobile": false,
-        "gap": "medium",
+        "gap": "small",
         "text_alignment": "center",
         "subheading": "",
         "title": "Nos client en parle le mieux",
@@ -452,6 +403,147 @@
         "input_text_color": ""
       }
     },
+    "text_with_icons_neMepU": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_atBg4T": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/Made_in_Vermont.svg",
+            "mobile_icon_width": 48,
+            "icon_width": 60,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Fabriqué en France",
+            "content": ""
+          }
+        },
+        "item_YBz4gA": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/Human_Grade_1_1.svg",
+            "mobile_icon_width": 48,
+            "icon_width": 60,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Qualité humaine",
+            "content": ""
+          }
+        },
+        "item_mhM99f": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/non-gmo_5.svg",
+            "mobile_icon_width": 48,
+            "icon_width": 60,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Sans OGM",
+            "content": ""
+          }
+        },
+        "item_aQLmC6": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/Hypoallergenic_4_1.svg",
+            "mobile_icon_width": 48,
+            "icon_width": 60,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Testé par un tiers",
+            "content": ""
+          }
+        },
+        "item_yGRUX9": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/no-artificial-flavors_3.svg",
+            "mobile_icon_width": 48,
+            "icon_width": 60,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Sans arômes artificiels",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_atBg4T",
+        "item_YBz4gA",
+        "item_mhM99f",
+        "item_aQLmC6",
+        "item_yGRUX9"
+      ],
+      "name": "Text with icons",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "tabs_WqXa4h": {
+      "type": "tabs",
+      "blocks": {
+        "tab_wPcdrJ": {
+          "type": "tab",
+          "settings": {
+            "title": "Tab 1",
+            "content": "<p>Use this text to share information about your brand with your customers.</p>",
+            "page": ""
+          }
+        },
+        "tab_HYdjFi": {
+          "type": "tab",
+          "settings": {
+            "title": "Tab 2",
+            "content": "<p>Describe a product, share announcements, or welcome customers to your store.</p>",
+            "page": ""
+          }
+        },
+        "tab_ViJRFN": {
+          "type": "tab",
+          "settings": {
+            "title": "Tab 3",
+            "content": "<p>Share information about your shipping rates, return policy or contact information.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_wPcdrJ",
+        "tab_HYdjFi",
+        "tab_ViJRFN"
+      ],
+      "name": "Tabs",
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "subheading": "Subheading",
+        "title": "Heading",
+        "first_tab_open": false,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "faq": {
       "type": "faq",
       "blocks": {
@@ -486,13 +578,13 @@
         "full_width": false,
         "subheading": "",
         "title": "FAQ",
-        "content": "<p>Use this text to share information about your product or shipping policies.</p>",
+        "content": "",
         "team_avatar_width": 160,
-        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
-        "answer_time": "Average answer time: 24h",
+        "support_hours": "",
+        "answer_time": "",
         "button_text": "",
         "button_url": "",
-        "text_position": "start",
+        "text_position": "center",
         "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
@@ -507,13 +599,14 @@
   },
   "order": [
     "slideshow",
-    "video_M9WUtf",
     "text_with_icons_DzYep3",
     "impact_text_e9F47E",
     "slideshow_aH8fjq",
     "video_dfGHja",
     "multi_column_wMtNGn",
     "featured_product_agQCQE",
+    "text_with_icons_neMepU",
+    "tabs_WqXa4h",
     "faq"
   ]
 }
