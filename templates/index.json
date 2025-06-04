@@ -294,7 +294,7 @@
         "liquid_BrVhdR": {
           "type": "liquid",
           "settings": {
-            "liquid": ""
+            "liquid": "<title>Trustpilot Stars</title>\n</head>\n<body>\n    <a target=\"_blank\" rel=\"noopener noreferrer\" style=\"text-decoration: none; display: flex; align-items: center;\">\n        <span style=\"font-size: 15px; font-weight: bold; color: #000;\">4.7</span>\n        <img src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/trustpilot_5_stars.svg?v=1721578152\" alt=\"Trustpilot 5 stars\" style=\"margin: 0 8px; width: 80px; height: auto;\">\n        <span style=\"font-size: 15px; color: #555;\">(878 notes)</span>\n    </a>"
           }
         },
         "image_3yhWD6": {
@@ -345,6 +345,27 @@
             "text_color": "#00a341"
           }
         },
+        "collapsible_text_9FCBfc": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Title",
+            "content": "<p>Share some content to your customers about your products.</p>"
+          }
+        },
+        "collapsible_text_4q4mJK": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Title",
+            "content": "<p>Share some content to your customers about your products.</p>"
+          }
+        },
+        "collapsible_text_NTmXkm": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Title",
+            "content": "<p>Share some content to your customers about your products.</p>"
+          }
+        },
         "pickup_availability_UVDpYK": {
           "type": "pickup_availability",
           "settings": {}
@@ -359,6 +380,9 @@
         "buy_buttons_qNYPVH",
         "payment_terms_xEzK7N",
         "offer_GGMTt6",
+        "collapsible_text_9FCBfc",
+        "collapsible_text_4q4mJK",
+        "collapsible_text_NTmXkm",
         "pickup_availability_UVDpYK"
       ],
       "name": "Featured product",

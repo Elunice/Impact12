@@ -17,22 +17,30 @@
         "message": {
           "type": "message",
           "settings": {
-            "text": "Announce something here",
+            "text": "2 achetés = 1 offert + -50% immédiat",
+            "url": ""
+          }
+        },
+        "message_td8JqX": {
+          "type": "message",
+          "settings": {
+            "text": "✅ Résultats garantis ou remboursé sous 30 jours ✅",
             "url": ""
           }
         }
       },
       "block_order": [
-        "message"
+        "message",
+        "message_td8JqX"
       ],
       "settings": {
         "enable_sticky": false,
         "text_size": "text-xs",
         "navigation_mode": "scrolling",
         "scrolling_speed": 10,
-        "background": "#1a1a1a",
+        "background": "#eeee4b",
         "background_gradient": "",
-        "text_color": "#ffffff"
+        "text_color": "#1a1a1a"
       }
     },
     "header": {
