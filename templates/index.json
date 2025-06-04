@@ -37,11 +37,13 @@
         "slide-2": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/why_petlabco_8ac12c869d.jpg",
+            "mobile_image": "shopify://shop_images/sub_benefits_05f3c565a5.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Tell your story",
-            "title": "Slide title",
+            "subheading": "",
+            "title": "",
             "heading_tag": "h0",
             "button_text": "",
             "button_link": "",
@@ -88,6 +90,20 @@
             "content": ""
           }
         },
+        "item_QVf3py": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/9k.jpg",
+            "mobile_icon_width": 104,
+            "icon_width": 72,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "",
+            "content": ""
+          }
+        },
         "item_VDwDqP": {
           "type": "item",
           "settings": {
@@ -115,27 +131,13 @@
             "title": "",
             "content": ""
           }
-        },
-        "item_QVf3py": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-coupon",
-            "custom_icon": "shopify://shop_images/9k.jpg",
-            "mobile_icon_width": 104,
-            "icon_width": 72,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "",
-            "content": ""
-          }
         }
       },
       "block_order": [
         "item_g9Wm9C",
+        "item_QVf3py",
         "item_VDwDqP",
-        "item_a9TAU8",
-        "item_QVf3py"
+        "item_a9TAU8"
       ],
       "name": "Text with icons",
       "settings": {
